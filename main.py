@@ -40,3 +40,6 @@ def get_followers(username):
             else:
                 # If the list of proxies is empty, raise an exception and exit the loop
                 raise Exception("All proxies failed") from None
+                
+if __name__ == '__main__':
+    app.run(debug=True)
