@@ -42,4 +42,4 @@ def get_followers(username):
                 raise Exception("All proxies failed") from None
                 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
